@@ -5,7 +5,6 @@ const app = express(); // Creates HTTP server
 app.use(express.json()); // utility to process JSON in requests
 app.use(cors()); // utility to allow clients to make requests from other hosts or ips
 const path = require('path');
-h;
 
 const clientApp1Path = path.resolve(__dirname, '../client-app1');
 const clientApp2Path = path.resolve(__dirname, '../client-app2');
